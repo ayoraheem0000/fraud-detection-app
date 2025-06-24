@@ -1,42 +1,28 @@
-# Hi there, I'm Ayoraheem 👋
+# Fraud Detection Web App
 
-I'm a passionate Developer with a strong focus on Python and SQL. I love building impactful solutions using clean code and smart algorithms.
+This is a Streamlit web application for credit card fraud detection using machine learning.
 
-## 🚀 About Me
+## Features
+- Train and evaluate ML models
+- Simulate live transactions
+- SHAP explainability plots
+- User authentication (optional)
+- Export filtered data
 
-- 💻 Developer specializing in Python & SQL
-- 🤖 Enthusiast in machine learning and real-time data solutions
-- 🛠️ Always exploring new technologies and ways to solve real-world problems
+## Requirements
+Install dependencies with:
 
-## 🌟 Featured Project
+```bash
+pip install -r requirements.txt
+```
 
-### [Fraud Detection App](https://github.com/ayoraheem0000/fraud-detection-app)
-My fraud-detection-app uses Python and machine learning algorithms to detect fraudulent transactions in real-time. It features a clean user interface and high accuracy.
+## Run the App
 
-## 📚 Skills
+```bash
+streamlit run fraud-detection.py
+```
 
-- Python
-- Machine Learning
-- Data Analysis
-
-<!-- Uncomment and add your links if you'd like!
-## 🌐 Connect with Me
-
-[LinkedIn](#) 
-🔗 Credly Profile: https://www.credly.com/users/ayobami-raheem.2c7e9e82
-LinkedIn Profile: https://www.linkedin.com/in/ayo-raheem-1845357b/
-
-
-<!-- Uncomment to add more sections!
-## 🏆 Achievements
-
-- List your certifications, awards, or major milestones here
-
-## 🎯 Hobbies
-
-- Share a fun fact or hobby!
--->
-
----
-
-Thanks for stopping by! 🚀
+## Deployment
+For deployment on Streamlit Cloud:
+- Ensure `requirements.txt` and `runtime.txt` are in the root folder.
+- Add a `.streamlit/config.toml` for theme customization (optional).
